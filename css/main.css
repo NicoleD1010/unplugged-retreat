@@ -108,12 +108,15 @@ html {
 body {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
+  color: #e2e3ed;
   text-align: left;
 }
  
 ul, 
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
  
 a {
@@ -123,12 +126,15 @@ a {
  
 h2 {
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   margin: 20px 0;
   font-size: 1.125em;
 }
@@ -213,6 +219,7 @@ header nav ul li {
 }
 
 footer {
+  text-align: center;
   flex-direction: column;
 }
 
@@ -261,7 +268,7 @@ footer .copyright {
   background: url(../img/unplugged-retreat.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 500px;
+  
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -644,7 +651,7 @@ input[type=button] {
       margin: 100px 0;
     }
   
-    .footer-content {
+    footer .footer-content {
       display: flex;
       justify-content: space-between;
       align-items: center;
